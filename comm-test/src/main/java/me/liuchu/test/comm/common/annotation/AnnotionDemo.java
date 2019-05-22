@@ -1,0 +1,13 @@
+package me.liuchu.test.comm.common.annotation;
+
+import java.lang.annotation.*;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface AnnotionDemo {
+
+    String name();
+
+    String value();
+}
